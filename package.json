@@ -11,7 +11,8 @@
         "float-site-manager": "bin/float-site-manager.js"
     },
     "dependencies": {
-        "ejs": "^3.1.6"
+        "ejs": "^3.1.6",
+        "express": "^4.17.1"
     },
     "bugs": {
         "url": "https://github.com/floatingblocks/float-site-manager/issues"
