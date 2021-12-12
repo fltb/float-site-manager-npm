@@ -6,25 +6,21 @@
     "licenseLink": "https://creativecommons.org/licenses/by-sa/4.0/",
     "licenseName": "CC-BY-SA 4.0",
     "navs": [ {
-            "name": "主页",
+            "name": "Home",
             "link": "/"
         }, {
-            "name": "分类",
+            "name": "Categories",
             "link": "/categories"
-        }, 
-        {
-            "name": "标签",
-            "link": "/tags"
-        },{
-            "name": "博客",
-            "link": "https://yjzxlclub.github.io/"
         }, {
-            "name": "关于",
+            "name": "Tags",
+            "link": "/tags"
+        }, {
+            "name": "About",
             "link": "/about"
         }
     ],
     "deploygit": {
-        "repo": "https://github.com/yjzx-site/yjzx-site.github.io.git",
+        "repo": "https://example.com.git",
         "branch": "master"
     }
 }
