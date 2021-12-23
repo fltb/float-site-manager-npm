@@ -11,12 +11,6 @@
         }, {
             "name": "Categories",
             "link": "/categories"
-<<<<<<< HEAD
-        }, {
-            "name": "标签",
-            "link": "/tags"
-=======
->>>>>>> develop
         }, {
             "name": "Tags",
             "link": "/tags"
