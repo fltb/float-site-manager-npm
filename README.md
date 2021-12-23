@@ -1,6 +1,6 @@
 # 说明
 
-这是我给文档的说明，这个网站的项目就按照这个做了
+这个项目是在 Github 上面的。见 <https://github.com/floatingblocks/float-site-manager> 的 develop 分支（main 分支是部署需要的文件，而 develop 才是开发的分支）。
 
 ## 组成
 
@@ -10,17 +10,17 @@
 
 索引页有两种：分类页和标签页。这两种都使用卡片的方式展示子连接。
 
-其中，分类页是用一个 JS　在同一页面进行不同分类的切换，标签页通过一个标签索引页来导航到不同的标签。
+其中，分类页是用一个 JS 在同一页面进行不同分类的切换，标签页通过一个标签索引页来导航到不同的标签。
 
 内容页也有两种：子页面和子网站。
 
-子页面是一个单个　HTML，只有一部分内容，会被放在内容模板的 content 里面。也可以有一些资源文件。
+子页面是一个单个 HTML，只有一部分内容，会被放在内容模板的 content 里面。也可以有一些资源文件。
 
 子网站就相当于一个独立网站，具有完全的功能
 
 ## 使用的技术
 
-前端是原生的 HTML　CSS JS 技术，后端使用 NodeJS 程序加上 ejs 模板进行部署。
+前端是原生的 HTML CSS JS 技术，后端使用 NodeJS 程序加上 ejs 模板进行部署。
 
 ## 文件结构
 
@@ -62,14 +62,14 @@
 
 ## 使用
 
-暂且命名为 yjzx 。主要命令目前就只有这么几个
+暂且命名为 float-site-manager 。主要命令目前就只有这么几个
 
 ``` text
-yjzx new page [name]
-yjzx new site [name]
-yjzx generate
-yjzx clean
-yjzx deploy
+float-site-manager new page [name]
+float-site-manager new site [name]
+float-site-manager generate
+float-site-manager clean
+float-site-manager deploy
 ```
 
 generate 就是生成对应的。然后 clean 直接删掉 public 和 fileRecord.json。deploy 是上传到 github。
