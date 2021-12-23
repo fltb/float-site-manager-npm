@@ -1,5 +1,24 @@
 {
-  "dependencies": {
-    "float-site-manager": "^1.0.5"
-  }
+    "name": "float-site-manager",
+    "version": "1.0.7",
+    "description": "To manage static sites",
+    "main": "bin/float-site-manager.js",
+    "files": [
+        "bin",
+        "lib"
+    ],
+    "bin": {
+        "float-site-manager": "bin/float-site-manager.js"
+    },
+    "dependencies": {
+        "ejs": "^3.1.6",
+        "express": "^4.17.1"
+    },
+    "bugs": {
+        "url": "https://github.com/floatingblocks/float-site-manager-npm/issues"
+    },
+    "author": {
+        "name": "FloatingBlocks"
+    },
+    "license": "GPL-3.0"
 }
